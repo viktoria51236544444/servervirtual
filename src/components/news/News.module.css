@@ -1,0 +1,77 @@
+
+/* ! Вопросы */
+.main {
+    width: 80vw;
+    margin-left: 10%;
+    position: relative;
+    margin-top: -3%;
+    height: auto;
+    padding: 2vw;
+    padding-top: 5vw;
+    padding-bottom: 10vw;
+  }
+  
+  .sec {
+    font-size: 1.5vw;
+    width: 100%;
+    background-color: orange;
+    padding: 1.5vw;
+    cursor: pointer;
+    margin-top: 0.5vw;
+    background-color: white;
+    text-align: left;
+    color: #000000;
+  }
+  
+  .icon {
+    margin-left: 88%;
+  }
+  .fa {
+    float: right;
+  }
+  .collapsable {
+    width: 100%;
+    background-color: pink;
+    padding: 2vw;
+    font-size: 1.2vw;
+    /* display: none; */
+    color: #757575;
+    background-color: white;
+  }
+  .sec i {
+    font-size: 2vw;
+    color: #616161;
+  }
+  @media only screen and (max-width: 450px) {
+    .main {
+      width: 80vw;
+      margin-left: 15%;
+    }
+    .sec {
+      font-size: 4.5vw;
+      width: 100%;
+      padding: 4.5vw;
+      margin-top: 1.5vw;
+    }
+  
+    .collapsable {
+      width: 100%;
+      padding: 6vw;
+      font-size: 3.6vw;
+      display: none;
+    }
+    .sec i {
+      font-size: 6vw;
+    }
+  }
+  .slider_container2 {
+    display: none;
+  }
+  @media only screen and (max-width: 380px){
+    .main {
+    
+      margin-left: 18%;
+    }
+  }
+  
+  

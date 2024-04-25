@@ -1,0 +1,73 @@
+/* Стили для формы */
+.auth_container {
+    background-color: #f3f4f7;
+  }
+  #login_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  #login_box .logo .logo_caption {
+    font-family: Nunito;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  #login_box .controls {
+    margin-top: 20px;
+  }
+  
+  #login_box .controls input {
+    width: 328px;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  #login_box button.btn_custom {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7c8db5;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #login_box button.btn_custom:hover {
+    background-color: #8ecaf3;
+  }
+  .logo img {
+    margin-left: 40%;
+    width: 60px;
+    margin-bottom: -20px;
+  }
+  .form_control {
+    background-color: white;
+    height: 50px !important;
+  }
+  .btn {
+    background-color: green !important;
+    width: 330px !important;
+    height: 40px !important;
+    padding: 10px !important;
+    font-size: 16px !important;
+  }
+  .btn:hover {
+    background-color: rgb(2, 126, 2) !important;
+  }
+  

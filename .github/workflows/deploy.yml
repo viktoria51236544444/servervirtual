@@ -27,7 +27,7 @@ jobs:
 
       - name: Build
         run: |
-          CI=false npm run build
+          CI=true npm run build
 
       - name: Create deploy tar file
         run: |

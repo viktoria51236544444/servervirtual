@@ -202,7 +202,7 @@ export default function MiniDrawer() {
             </Box>
            
             <Typography variant="body2" sx={{ marginRight: "10px" }}>
-              Аккаунт: victoriaagarkova@gmail.com
+            victoriaagarkova@gmail.com
             </Typography>
           </Box>
         </Toolbar>
